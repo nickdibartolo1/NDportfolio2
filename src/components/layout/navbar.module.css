@@ -1,0 +1,23 @@
+.header {
+    height: 56px;
+    margin-bottom: 120px;
+    background-color: #303746;
+  }
+  
+  .inner {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+  }
+  
+  .link {
+    line-height: 1;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #d60b0b;
+    font-size: 14px;
+    font-weight: 500;
+  }

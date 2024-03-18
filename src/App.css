@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,14 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+.element-with-background {
+  background-image: url('C:\Users\dibar\OneDrive\Desktop\portfolio\app\src\assets\background.svg');
+  background-size: cover;
+  /* Adjust to your preference */
+  background-position: center;
+  /* Adjust to your preference */
+  background-repeat: no-repeat;
+  /* Adjust to your preference */
 }
