@@ -41,12 +41,23 @@
   color: #888;
 } */
 
+.card {
+  height: 90%;
+  width: 90%;
+}
 
+.card_container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .element-with-background {
   background-color: #000000;
-  background-image: url("../public/bg.svg");
+  background-image: url("bgg.svg");
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh; /* Set height to viewport height */
+  height: 100vh;
+  /* Set height to viewport height */
 }
