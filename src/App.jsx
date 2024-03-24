@@ -41,7 +41,7 @@ function App() {
         <div className='element-with-background'>
           <div className='card_container'>
             <Card shadow="sm" padding="lg" radius="md" withBorder className='card'>
-              <Navbar></Navbar>
+              <Navbar/>
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />

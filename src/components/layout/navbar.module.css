@@ -1,7 +1,9 @@
 .header {
     height: 56px;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
     background-color: #303746;
+    border-radius: 10px;
+    width: 100%;
 }
 
 .inner {
@@ -12,16 +14,16 @@
     float: right;
 }
 
-.link {
+.text{
     line-height: 1;
     padding: 8px 12px;
     border-radius: 4px;
+    color: white;
     text-decoration: none;
-    color: #d60b0b;
     font-size: 14px;
     font-weight: 500;
 }
 
-.text{
-    color: white;
+.text:hover{
+    color: rgb(115, 115, 224);
 }
