@@ -9,8 +9,12 @@ const Navbar = () => {
     return (
         <header className={classes.header}>
             <Container size="md" className={classes.inner}>
+                <div style={{}}>
+                    <p>ND</p>
+                </div>
                 <Group gap={5} visibleFrom="xs">
-                    <Link className={classes.text} to="/">Home</Link> 
+
+                    <Link className={classes.text} to="/">Home</Link>
                     <Link className={classes.text} to="/about">About</Link>
                     <Link className={classes.text} to="/projects">Projects</Link>
                     <Link className={classes.text} to="/resume">Resume</Link>

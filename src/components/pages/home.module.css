@@ -1,7 +1,5 @@
-.position {
-    position: relative;
-    top: 10%;
-    left: 10%;
+.margin {
+    margin: 0 10% 0 0;
 }
 
 .header {
@@ -13,17 +11,24 @@
 .sub_header {
     max-width: none;
     font-size: 2rem;
-    /* position: relative; */
+    margin: auto;
 }
 
-.img_position {
-    position: relative;
-    left: 70%;
-    bottom: 32%;
+.text {
+    margin-bottom: 20px;
+}
+
+
+.icons {
+    margin-top: 20px;
+}
+
+.solo_icon {
+    margin: 0 10px 0 10px;
 }
 
 .img {
-    max-width: 400px;
+    max-width: 300px;
     max-height: 500px;
     z-index: 1;
     object-fit: cover;

@@ -1,7 +1,7 @@
 .header {
     height: 56px;
     margin-bottom: 60px;
-    background-color: #303746;
+    /* background-color: #8B8C89; */
     border-radius: 10px;
     width: 100%;
 }
@@ -18,7 +18,7 @@
     line-height: 1;
     padding: 8px 12px;
     border-radius: 4px;
-    color: white;
+    color: #8B8C89;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
