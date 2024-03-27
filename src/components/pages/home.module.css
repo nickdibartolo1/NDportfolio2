@@ -37,3 +37,46 @@
     border-bottom-left-radius: 60%;
     border-bottom-right-radius: 1%;
 }
+
+@media screen and (max-width: 768px) {
+
+    /* Adjust the font size smaller for screens up to 640 pixels */
+    .header {
+        font-size: 2rem;
+        /* Adjust the font size as needed */
+    }
+
+    .sub_header {
+
+        font-size: 1.2rem;
+
+    }
+
+    .img {
+        max-width: 200px;
+        max-height: 300px;
+        z-index: 1;
+        object-fit: cover;
+        border-top-left-radius: 1%;
+        border-top-right-radius: 1%;
+        border-bottom-left-radius: 60%;
+        border-bottom-right-radius: 1%;
+    }
+
+    .margin {
+        margin: 0 3% 0 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .img {
+        max-width: 150px;
+        max-height: 250px;
+        z-index: 1;
+        object-fit: cover;
+        border-top-left-radius: 1%;
+        border-top-right-radius: 1%;
+        border-bottom-left-radius: 60%;
+        border-bottom-right-radius: 1%;
+    }
+}
