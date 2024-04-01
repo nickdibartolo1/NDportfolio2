@@ -22,7 +22,7 @@
 
 // export default App
 
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider, ScrollArea } from '@mantine/core';
 import './App.css'
 import '@mantine/core/styles.css'
 import { Card } from '@mantine/core';
@@ -41,13 +41,15 @@ function App() {
         <div className='element-with-background'>
           <div className='card_container'>
             <Card shadow="sm" padding="lg" radius="md" withBorder className='card'>
-              <Navbar/>
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/resume" element={<Resume />} />
-              </Routes>
+              <ScrollArea >
+                <Navbar />
+                <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/about" element={<About />} />
+                  <Route path="/projects" element={<Projects />} />
+                  <Route path="/resume" element={<Resume />} />
+                </Routes>
+              </ScrollArea>
             </Card>
           </div>
         </div>

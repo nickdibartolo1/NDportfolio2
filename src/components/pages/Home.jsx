@@ -2,13 +2,13 @@ import { Button } from "@mantine/core"
 import classes from "./home.module.css"
 import { Link } from "react-router-dom"
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-// import About from "./About"
+import About from "./About"
 
 const Home = () => {
     return (
         <>
             <main>
-                <section>
+                <section style={{ position: 'relative', display: 'flex', justifyContent: 'center' }}>
                     <img className={classes.img} src="image.jpg" alt="Description of your image"></img>
                 </section>
                 <section>
@@ -37,10 +37,8 @@ const Home = () => {
                         </a>
                     </div>
                 </section>
-
-
-                {/* <About></About> */}
             </main>
+            <About></About>
         </>
     )
 }

@@ -1,4 +1,58 @@
-.img{
-    max-width: 300px;
+.img {
+    max-width: 500px;
     max-height: 500px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 970px) {
+
+    .img {
+        max-width: 320px;
+        max-height: 300px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .header{
+    font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+
+    .header{
+        font-size: 21px;
+        }
+
+}
+
+@media screen and (max-width: 640px) {
+    .img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .text {
+        font-size: 11px;
+    }
+
+    .header{
+        font-size: 17px;
+        }
 }
