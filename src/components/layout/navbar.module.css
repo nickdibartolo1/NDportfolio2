@@ -17,7 +17,7 @@
     line-height: 1;
     padding: 8px 12px;
     border-radius: 4px;
-    color: #8B8C89;
+    color: #E7ECEF;
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
@@ -26,4 +26,3 @@
 .text:hover {
     color: #274C77;
 }
-

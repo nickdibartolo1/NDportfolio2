@@ -8,16 +8,13 @@ const Home = () => {
     return (
         <>
             <main>
-                <section style={{ position: 'relative', display: 'flex', justifyContent: 'center' }}>
-                    <img className={classes.img} src="image.jpg" alt="Description of your image"></img>
-                </section>
-                <section>
+                
+                <section className={classes.section_container}>
                     <h1 className={classes.header}>Nick Dibartolo</h1>
                     <h2 className={classes.sub_header}>Junior Developer</h2>
                     <div className={classes.text_container}>
                         <p className={classes.text}>I am currently a Junior Developer with over a year of hands on
-                            experience! Im presenting you with my portfolio with insight into my
-                            experience in Web developement along with insight about myself!</p>
+                            experience!</p>
                     </div>
                     <div className={classes.button}>
                         <Link to="/about">
@@ -37,8 +34,11 @@ const Home = () => {
                         </a>
                     </div>
                 </section>
+                {/* <section className={classes.img_container}>
+                    <img className={classes.img} src="image.jpg" alt="Description of your image"></img>
+                </section> */}
             </main>
-            <About></About>
+            {/* <About></About> */}
         </>
     )
 }

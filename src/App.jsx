@@ -36,23 +36,39 @@ import Resume from './components/pages/Resume';
 function App() {
 
   return (
+    // <MantineProvider>
+    //   <BrowserRouter>
+    //     <div className='element-with-background'>
+    //       <div className='card_container'>
+    //         {/* <Card shadow="sm" padding="lg" radius="md" withBorder className='card'> */}
+    //           <ScrollArea >
+    //             <Navbar />
+    //             <Routes>
+    //               <Route path="/" element={<Home />} />
+    //               <Route path="/about" element={<About />} />
+    //               <Route path="/projects" element={<Projects />} />
+    //               <Route path="/resume" element={<Resume />} />
+    //             </Routes>
+    //           </ScrollArea>
+    //         {/* </Card> */}
+    //       </div>
+    //     </div>
+    //   </BrowserRouter>
+    // </MantineProvider>
+
     <MantineProvider>
       <BrowserRouter>
-        <div className='element-with-background'>
-          <div className='card_container'>
-            <Card shadow="sm" padding="lg" radius="md" withBorder className='card'>
-              <ScrollArea >
-                <Navbar />
-                <Routes>
-                  <Route path="/" element={<Home />} />
-                  <Route path="/about" element={<About />} />
-                  <Route path="/projects" element={<Projects />} />
-                  <Route path="/resume" element={<Resume />} />
-                </Routes>
-              </ScrollArea>
-            </Card>
-          </div>
+      <div className='primary_background'>
+        <div className='secondary_background'>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
         </div>
+      </div>
       </BrowserRouter>
     </MantineProvider>
   )
