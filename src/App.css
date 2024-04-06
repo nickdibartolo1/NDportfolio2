@@ -4,37 +4,42 @@
   box-sizing: border-box;
 }
 
-body{
+html {
+  font-size: 62.5%;
+}
+
+/* body {
   padding: 30px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.7;
+  color: white;
+} */
+
+.primary_background {
+  background-image: linear-gradient(to right, #3b3b3bbd, #111111c0), url('../src/assets/codeimg.jpg');
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  /* z-index: 9; */
+
 }
 
-.primary_background{
-  background-image: linear-gradient(to right, #a3cef1c7, #6096bace), url('../src/assets/code.jpg');
-  height: 100vh;
-}
-
-.secondary_background {
-  background-image: linear-gradient(to right, #a3cef1c7, #6096bace), url("image.jpg");
+/* .secondary_background {
+  background-image: url("image.jpg"); */
   /* background-attachment: fixed; */
   /* background-size:; */
   /* background-size: contain; */
+  /* background-position: right 15%;
   background-size: 50%;
   background-repeat: no-repeat;
   height: 100vh;
-  
-}
+} */
 
-.card {
-  /* height: 90%;
-  width: 80%; */
-}
-
-.card_container {
-  /* height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
-}
 
 
 

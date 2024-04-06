@@ -2,33 +2,64 @@
     margin: 0 10% 0 0;
 }
 
-.section_container{
+.section_container {
     position: absolute;
     top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+    transform: translate(33%, -50%);
 }
 
 .header {
     display: block;
-    font-size: 4rem;
+    font-size: 6rem;
     margin: 0;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: Lato, sans-serif;
+    line-height: 1.7;
+    letter-spacing: 10px;
 }
 
 .sub_header {
     display: block;
-    font-size: 2rem;
-    margin: auto;
+    font-size: 4.2rem;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: Lato, sans-serif;
+    line-height: 1.7;
+    letter-spacing: 10px;
 }
 
 .text {
     display: block;
     margin-bottom: 20px;
     width: 50%;
+    font-size: 2rem;
+    color: white;
+    font-family: Lato, sans-serif;
+    line-height: 1.7;
+    letter-spacing: 5px;
+    margin: 10px 0 20px 0;
 }
 
-.button {
+.main-button-container {
     display: block;
+    margin-top: 5rem;
+}
+
+.main-button {
+    background-color: #274C77;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    font-size: 1.6rem;
+}
+
+.main-button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .icons {
@@ -40,7 +71,7 @@
     margin: 0 10px 0 10px;
 }
 
-.img_container{
+.img_container {
     display: block;
     transform: translate(60%, 40%);
 }
@@ -57,13 +88,13 @@
 
     /* Adjust the font size smaller for screens up to 640 pixels */
     .header {
-        font-size: 2rem;
+        font-size: 4rem;
         /* Adjust the font size as needed */
     }
 
     .sub_header {
 
-        font-size: 1.2rem;
+        font-size: 2.8rem;
 
     }
 
