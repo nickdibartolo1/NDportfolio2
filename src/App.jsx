@@ -15,9 +15,7 @@ function App() {
   return (
     <MantineProvider>
       <BrowserRouter>
-
         <div className='primary_background'>
-          {/* <div className='secondary_background'> */}
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -25,7 +23,6 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
-          {/* </div> */}
         </div>
       </BrowserRouter>
     </MantineProvider>
