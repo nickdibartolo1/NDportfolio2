@@ -10,9 +10,9 @@ const Home = () => {
                 <section className="section_container">
                     <div>
                         <h1 className="header">
-                            <span className='primary_header'>Nick Dibartolo</span>
+                            <span className='primary_header'>Nick DiBartolo</span>
                             <span className="sub_header">Junior Developer</span>
-                            <span className="text_header"> I am currently a Junior Developer with over a year of hands on
+                            <span className="text_header">I am currently a Junior Developer with over a year of hands on
                                 experience!</span>
                         </h1>
                     </div>
