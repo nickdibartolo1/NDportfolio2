@@ -1,9 +1,25 @@
+.about_text_alignment {
+    text-align: center;
+
+}
+
+.about_text {
+    color: white;
+    display: inline-block;
+    font-size: 4.2rem;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
 .headshot_container {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-top: 5rem;
 }
 
 .headshot_frame {
@@ -13,6 +29,15 @@
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
     width: 300px;
     cursor: pointer;
+    border-radius: 3px;
+
+    transition: transform .3s;
+}
+
+.headshot_frame:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+    cursor: pointer;
+    color: #5643fa;
 }
 
 .headshot {
@@ -20,15 +45,30 @@
     width: 100%;
 }
 
-
-
-.img {
-    max-width: 500px;
-    max-height: 500px;
+.headshot_text--margin {
+    margin-top: .9rem;
 }
 
+.headshot_text {
+    font-size: 2.4rem;
+}
+
+.modal_container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 3rem;
+    padding: 3rem;
+
+}
+
+.modal_headshot {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+
 .text {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 
