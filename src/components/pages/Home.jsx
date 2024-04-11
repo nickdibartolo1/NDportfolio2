@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <>
             <main>
-                <section className="section_container">
+                <header className="section_container">
                     <div>
                         <h1 className="header">
                             <span className='primary_header'>Nick DiBartolo</span>
@@ -21,14 +21,14 @@ const Home = () => {
                             <button className="main-button">About Me</button>
                         </Link>
                     </div>
-                </section>
+                </header>
 
 
                 {/* <section className="img_container">
                     <img className="img" src="image.jpg" alt="Description of your image"></img>
                 </section> */}
-            </main>
             {/* <About></About> */}
+            </main>
         </>
     )
 }

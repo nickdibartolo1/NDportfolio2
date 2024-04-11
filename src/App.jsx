@@ -9,6 +9,7 @@ import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
 import About from './components/pages/About';
 import Resume from './components/pages/Resume';
+import Footer from './components/layout/Footer';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
             <Route path="/resume" element={<Resume />} />
           </Routes>
         </div>
+          <Footer/>
       </BrowserRouter>
     </MantineProvider>
   )

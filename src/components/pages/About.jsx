@@ -15,7 +15,7 @@ const About = () => {
                 <div onClick={open} className='headshot_frame'>
                     <img className="headshot" src={img} alt="Image of Nick DiBartolo" />
                     <div className="headshot_text--margin">
-                        <span className="headshot_text">Click Me!</span>
+                        <span className="headshot_text">Nick DiBartolo</span>
                     </div>
                 </div>
             </div>
