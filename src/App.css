@@ -9,11 +9,17 @@ html {
 }
 
 body {
-  padding: 30px;
+  padding: 3rem;
 }
 
+.a{
+  /* margin-top: -27vh;
+    padding: 25rem 0; */
+}
+
+
 .primary_background {
-  height: 95vh;
+  height: 120vh;
   background-image: linear-gradient(to right, #3b3b3bbd, #111111c0), url('../src/assets/codeimg.jpg');
   background-size: cover;
   background-position: top;

@@ -16,6 +16,7 @@ function App() {
   return (
     <MantineProvider>
       <BrowserRouter>
+     <div className='a'>
         <div className='primary_background'>
           <Navbar />
           <Routes>
@@ -25,6 +26,7 @@ function App() {
             <Route path="/resume" element={<Resume />} />
           </Routes>
         </div>
+     </div>
           <Footer/>
       </BrowserRouter>
     </MantineProvider>

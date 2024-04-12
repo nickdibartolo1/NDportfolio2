@@ -8,6 +8,7 @@ const About = () => {
 
     return (
         <>
+        
             <div className="about_text_alignment">
                 <h1 className="about_text">About Me</h1>
             </div>
@@ -33,6 +34,7 @@ const About = () => {
                     </p>
                 </section>
             </Modal>
+      
         </>
     )
 }

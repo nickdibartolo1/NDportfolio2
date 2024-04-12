@@ -13,16 +13,12 @@ const Footer = () => {
                 </div>
                 <div className="footer__thanks">
                     <p className="footer__thanks-text">
-                        This portfolio was created by Nick DiBartolo to showcase his developer abilities and projects.
+                        This portfolio was created by <span className="footer__thanks-name">NICK DIBARTOLO</span> to showcase his developer abilities and projects.
                         Thank you for checking out the site.
-                        It is much appreaciated and I hope you enjoyed it!
+                        It is much appreaciated and I hope you enjoyed it! Email at <span className="footer__thanks-name">Dibartolonick0518@gmail.com</span> to get in touch!
                     </p>
                 </div>
-
-
             </div>
-
-
         </footer>
     )
 }
