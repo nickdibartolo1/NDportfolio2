@@ -1,12 +1,12 @@
 
 
-.about_text_alignment {
+.header__alignment {
     text-align: center;
     background-color: #0000005b;
     padding: 6rem;
 }
 
-.about_text {
+.header__text {
     color: white;
     display: inline-block;
     font-size: 4.2rem;

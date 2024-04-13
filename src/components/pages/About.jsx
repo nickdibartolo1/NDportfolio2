@@ -1,4 +1,4 @@
-import img from '../../assets/headshot.jpg';
+import img from '../../assets/img/headshot.jpg';
 import './about.css';
 import { useDisclosure } from '@mantine/hooks';
 import { Modal } from '@mantine/core';
@@ -8,9 +8,9 @@ const About = () => {
 
     return (
         <>
-        
-            <div className="about_text_alignment">
-                <h1 className="about_text">About Me</h1>
+
+            <div className="header__alignment">
+                <h1 className="header__text">About Me</h1>
             </div>
             <div className='headshot_container'>
                 <div onClick={open} className='headshot_frame'>
@@ -23,18 +23,18 @@ const About = () => {
             <Modal size="55%" opened={opened} onClose={close} centered>
                 <section className='modal_container'>
                     <img className="modal_headshot" src={img} alt="Image of Nick DiBartolo"></img>
-                    <p className="text">I am a Junior Developer named Nick DiBartolo and I was born and raised in Northern New Jersey.
+                    <p className="text">I am Nick DiBartolo, a Junior Developer, and I was born and raised in Northern New Jersey.
                         My tech journey began when I transitioned into coding and
                         web development in the later time I spent in college.
                         I was originally an Education major at Montclair State University, but decided to switch as I craved something more challenging.
                         I enrolled in a Full-Stack Web Development Bootcamp at Rutgers University
                         where I received a certification in Full-Stack Web Development.
                         I am currently working as a Junior Developer at Strategic Micro Systems,
-                        an IT company in Parsippany, New Jersey. In my free time, I love to workout, play guitar, and read about history.
+                        an IT company in Parsippany, New Jersey. In my free time, I like to workout, play guitar, read about history, and practice coding through courses and projects.
                     </p>
                 </section>
             </Modal>
-      
+
         </>
     )
 }

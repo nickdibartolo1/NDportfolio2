@@ -35,18 +35,3 @@ const Home = () => {
 
 export default Home
 
-
-// style={{ display: "flex", position: 'relative', left: "15%", top: "5%" }}
-
-{/* <div className="icons">
-                        <a className="individual_icon" href='https://github.com/nickdibartolo1/'>
-                            <FaGithub
-                                size='30px'
-                            />
-                        </a>
-                        <a className="individual_icon" href='https://www.linkedin.com/in/nicholas-dibartolo-a93310245/'>
-                            <FaLinkedin
-                                size='30px'
-                            />
-                        </a>
-                    </div> */}
