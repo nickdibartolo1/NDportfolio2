@@ -10,37 +10,37 @@ const data = [
         id: uuidv4(),
         image: img,
         title: 'DASH App',
-        category: 'nature',
+        description: 'nature',
     },
     {
         id: uuidv4(),
         image: img,
         title: 'Word Match Game',
-        category: 'nature',
+        description: 'nature',
     },
     {
         id: uuidv4(),
         image: nflfanbase,
         title: 'NFL Fanbase',
-        category: 'nature',
+        description: 'nature',
     },
     {
         id: uuidv4(),
         image: img,
         title: "Nick's Current Portfolio",
-        category: 'nature',
+        description: 'nature',
     },
     {
         id: uuidv4(),
         image: ndportfolio1,
         title: "Nick's Old Portfolio",
-        category: 'nature',
+        description: 'nature',
     },
     {
         id: uuidv4(),
         image: randomQ,
         title: "Random Quote Generator",
-        category: 'nature',
+        description: 'nature',
     },
 
 ];

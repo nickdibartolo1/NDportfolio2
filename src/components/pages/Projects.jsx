@@ -95,7 +95,7 @@ function Projects() {
             <Carousel.Slide key={index}>
                 <div className=''>
                     <img className='img' src={data.img} alt={`Project ${index}`} />
-                    {/* <div>{data.description}</div> */}
+                    <div>{data.description}</div>
                 </div>
             </Carousel.Slide>
         ));
