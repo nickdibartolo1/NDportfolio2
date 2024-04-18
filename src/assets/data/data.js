@@ -3,18 +3,18 @@ import { v4 as uuidv4 } from 'uuid';
 import ndportfolio1 from "../img/portfolio1.png"
 import nflfanbase from '../img/nflfanbase.png'
 import randomQ from "../img/randomQuote.png"
-import img from "../../assets/img/headshot.jpg";
+// import img from "../../assets/img/headshot.jpg";
 
 const data = [
     {
         id: uuidv4(),
-        image: img,
+        image: randomQ,
         title: 'DASH App',
         description: 'nature',
     },
     {
         id: uuidv4(),
-        image: img,
+        image: randomQ,
         title: 'Word Match Game',
         description: 'nature',
     },
@@ -26,7 +26,7 @@ const data = [
     },
     {
         id: uuidv4(),
-        image: img,
+        image: randomQ,
         title: "Nick's Current Portfolio",
         description: 'nature',
     },
