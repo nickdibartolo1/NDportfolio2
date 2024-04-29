@@ -3,6 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import ndportfolio1 from "../img/portfolio1.png"
 import nflfanbase from '../img/nflfanbase.png'
 import randomQ from "../img/randomQuote.png"
+import wordmatch from "../img/wordmatchgame.png"
 // import img from "../../assets/img/headshot.jpg";
 
 const data = [
@@ -14,7 +15,7 @@ const data = [
     },
     {
         id: uuidv4(),
-        image: randomQ,
+        image: wordmatch,
         title: 'Word Match Game',
         description: 'nature',
     },
